@@ -11,6 +11,7 @@ You are expected to fullfill below needs:
 * Use npm as a package manager. Prepare build, dev, start npm scripts
 * Use an asset bundler, preferably Webpack, for bundling js files and copying src/index.html file to dist folder
 * Use a compiler, preferably Babel, for transpiling and polyfilling your ES6+ JavaScript code down to ES5 
+* Use a Recipe API to fetch foods and recipes. You can consume food2fork APIs at https://www.food2fork.com. Be aware that free subscription includes 50 request per day at the time this information is written.
 * A recipe application where you can 
   * search foods by a keyword
   * list the results on the left side of the page as clickable items
