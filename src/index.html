@@ -8,13 +8,13 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-    <title>forkify // Search over 1,000,000 recipes</title>
+    <title>Search over 1,000,000 recipes</title>
 </head>
 
 <body>
     <div class="container">
         <header class="header">
-            <img src="img/logo.png" alt="Logo" class="header__logo">
+            <span class="header__logo">A LOGO MAYBE</span>
             <form class="search">
                 <input type="text" class="search__field" placeholder="Search over 1,000,000 recipes...">
                 <button class="btn search__btn">
@@ -205,52 +205,19 @@
                 </h1>
             </figure>
             <div class="recipe__details">
-                <div class="recipe__info">
-                    <svg class="recipe__info-icon">
-                        <use href="img/icons.svg#icon-stopwatch"></use>
-                    </svg>
-                    <span class="recipe__info-data recipe__info-data--minutes">45</span>
-                    <span class="recipe__info-text"> minutes</span>
-                </div>
-                <div class="recipe__info">
-                    <svg class="recipe__info-icon">
-                        <use href="img/icons.svg#icon-man"></use>
-                    </svg>
-                    <span class="recipe__info-data recipe__info-data--people">4</span>
-                    <span class="recipe__info-text"> servings</span>
-
-                    <div class="recipe__info-buttons">
-                        <button class="btn-tiny">
-                            <svg>
-                                <use href="img/icons.svg#icon-circle-with-minus"></use>
-                            </svg>
-                        </button>
-                        <button class="btn-tiny">
-                            <svg>
-                                <use href="img/icons.svg#icon-circle-with-plus"></use>
-                            </svg>
-                        </button>
-                    </div>
-
-                </div>
                 <button class="recipe__love">
                     <svg class="header__likes">
                         <use href="img/icons.svg#icon-heart-outlined"></use>
                     </svg>
                 </button>
             </div>
-
-
-
             <div class="recipe__ingredients">
                 <ul class="recipe__ingredient-list">
                     <li class="recipe__item">
                         <svg class="recipe__icon">
                             <use href="img/icons.svg#icon-check"></use>
                         </svg>
-                        <div class="recipe__count">1000</div>
                         <div class="recipe__ingredient">
-                            <span class="recipe__unit">g</span>
                             pasta
                         </div>
                     </li>
@@ -259,9 +226,7 @@
                         <svg class="recipe__icon">
                             <use href="img/icons.svg#icon-check"></use>
                         </svg>
-                        <div class="recipe__count">1/2</div>
                         <div class="recipe__ingredient">
-                            <span class="recipe__unit">cup</span>
                             ricotta cheese
                         </div>
                     </li>
@@ -270,21 +235,16 @@
                         <svg class="recipe__icon">
                             <use href="img/icons.svg#icon-check"></use>
                         </svg>
-                        <div class="recipe__count">1</div>
                         <div class="recipe__ingredient">
-                            <span class="recipe__unit"></span>
                             can of tomatoes, whole or crushed
                         </div>
                     </li>
-
 
                     <li class="recipe__item">
                         <svg class="recipe__icon">
                             <use href="img/icons.svg#icon-check"></use>
                         </svg>
-                        <div class="recipe__count">1</div>
                         <div class="recipe__ingredient">
-                            <span class="recipe__unit"></span>
                             can tuna packed in olive oil
                         </div>
                     </li>
@@ -293,9 +253,7 @@
                         <svg class="recipe__icon">
                             <use href="img/icons.svg#icon-check"></use>
                         </svg>
-                        <div class="recipe__count">1/2</div>
                         <div class="recipe__ingredient">
-                            <span class="recipe__unit">cup</span>
                             grated parmesan cheese
                         </div>
                     </li>
@@ -304,20 +262,12 @@
                         <svg class="recipe__icon">
                             <use href="img/icons.svg#icon-check"></use>
                         </svg>
-                        <div class="recipe__count">1/4</div>
                         <div class="recipe__ingredient">
-                            <span class="recipe__unit">cup</span>
                             fresh basil, chopped or torn
                         </div>
                     </li>
                 </ul>
 
-                <button class="btn-small recipe__btn">
-                    <svg class="search__icon">
-                        <use href="img/icons.svg#icon-shopping-cart"></use>
-                    </svg>
-                    <span>Add to shopping list</span>
-                </button>
             </div>
 
             <div class="recipe__directions">
@@ -331,108 +281,15 @@
                     <svg class="search__icon">
                         <use href="img/icons.svg#icon-triangle-right"></use>
                     </svg>
-
                 </a>
             </div>
             -->
         </div>
 
-
-
-
-
         <div class="shopping">
-            <h2 class="heading-2">My Shopping List</h2>
-
-            <ul class="shopping__list">
-
-                <!--
-                <li class="shopping__item">
-                    <div class="shopping__count">
-                        <input type="number" value="500" step="100">
-                        <p>g</p>
-                    </div>
-                    <p class="shopping__description">Pasta</p>
-                    <button class="shopping__delete btn-tiny">
-                        <svg>
-                            <use href="img/icons.svg#icon-circle-with-cross"></use>
-                        </svg>
-                    </button>
-                </li>
-
-                <li class="shopping__item">
-                    <div class="shopping__count">
-                        <input type="number" value="0.5" step="0.1">
-                        <p>cup</p>
-                    </div>
-                    <p class="shopping__description">Ricotta cheese</p>
-                    <button class="shopping__delete btn-tiny">
-                        <svg>
-                            <use href="img/icons.svg#icon-circle-with-cross"></use>
-                        </svg>
-                    </button>
-                </li>
-
-                <li class="shopping__item">
-                    <div class="shopping__count">
-                        <input type="number" value="3.5" step="0.1">
-                        <p>tbsp</p>
-                    </div>
-                    <p class="shopping__description">Toasted almond slices</p>
-                    <button class="shopping__delete btn-tiny">
-                        <svg>
-                            <use href="img/icons.svg#icon-circle-with-cross"></use>
-                        </svg>
-                    </button>
-                </li>
-
-                <li class="shopping__item">
-                    <div class="shopping__count">
-                        <input type="number" value="0.5" step="0.1">
-                        <p>tbsp</p>
-                    </div>
-                    <p class="shopping__description">Sea salt</p>
-                    <button class="shopping__delete btn-tiny">
-                        <svg>
-                            <use href="img/icons.svg#icon-circle-with-cross"></use>
-                        </svg>
-                    </button>
-                </li>
-
-                <li class="shopping__item">
-                    <div class="shopping__count">
-                        <input type="number" value="0.25" step="0.1">
-                        <p>cup</p>
-                    </div>
-
-                    <p class="shopping__description">Minced green onions</p>
-                    <button class="shopping__delete btn-tiny">
-                        <svg>
-                            <use href="img/icons.svg#icon-circle-with-cross"></use>
-                        </svg>
-                    </button>
-                </li>
-
-                <li class="shopping__item">
-                    <div class="shopping__count">
-                        <input type="number" value="45" step="10">
-                        <p>g</p>
-                    </div>
-                    <p class="shopping__description">Sesame seeds</p>
-                    <button class="shopping__delete btn-tiny">
-                        <svg>
-                            <use href="img/icons.svg#icon-circle-with-cross"></use>
-                        </svg>
-                    </button>
-                </li>
-                -->
-            </ul>
-
             <div class="copyright">
-                &copy; by tmobtech. Powered by
-                <a href="http://food2fork.com" target="_blank" class="link">Food2Fork.com</a>.
+                &copy; by tmobtech.
             </div>
-
         </div>
     </div>
 

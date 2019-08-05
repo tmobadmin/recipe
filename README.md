@@ -13,13 +13,13 @@ You are expected to fullfill below needs:
 * Use a compiler, preferably Babel, for transpiling and polyfilling your ES6+ JavaScript code down to ES5 
 * A recipe application where you can 
   * search foods by a keyword
-  * list the results on the page as a clickable items
-  * display pagination if necessary
-  * click one of the items and display details on the same page
+  * list the results on the left side of the page as clickable items
+  * implement pagination
+  * click one of the items and display details on the same page in the center panel
   * like a recipe and store it in the browser storage so when you reload the page data is not lost
-  * Feel free to add any HTML5, CSS3 features to add maybe animations or other fancy things like a spinner while doing an HTTP Request.
+  * Feel free to add any HTML5, CSS3 features to add maybe animations or other fancy things. Displaying a spinner while doing an HTTP Request is a must.
 
-Please take a look at the resulting page screen shot in ?????.
+Please take a look at the expected application in rec/recording.mov.
 
 There you can see a resulting application with recipes, details and all other requirements.
 
